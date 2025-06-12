@@ -87,10 +87,19 @@ a{
   /* background: linear-gradient(rgb(5, 5, 51), blue); */
   height: 40vh;
   color: #000;
+  background-color: #c8c8c8;
+  padding: 3rem;
+  text-wrap: wrap;
+}
+.slide-in-left{
+  /* color: wheat; */
+  animation: slide-in-left 1s ease-out forwards;
 }
 
 .cta{
   /* background-color: red; */
+  background-color: red;
+
 }
 
 
@@ -138,5 +147,61 @@ a{
   
   .nav-link{
     color: #000;
+  }
+}
+
+
+
+.slide-in-left{
+
+}
+.slide-in-top{
+  animation: slide-in-top 1s ease-out forwards;
+}
+
+
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
