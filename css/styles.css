@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+  font-family: "Lato", sans-serif;
+}
+
+header{
+  padding: 2vh 4vh;
+  color: #fff;
+  height: 60vh;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  /* Dark gradient */
+    url('../assets/tech-daily-ztYmIQecyH4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid red;
+  
+}
+.nav-branding{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.logo{
+  width: 40px;
+  object-fit: cover;
+
+}
+.logo-text{
+   font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-list{
+  list-style: none;
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+}
+
+.nav-link{
+  transition: all .5s;
+  padding: .5rem .8rem;
+  color: #fff;
+  
+}
+.courses{
+  color: #ff9100;
+}
+.nav-link:hover{
+  /* border: 2px solid white; */
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+
+}
+
+
+.hamburger{
+  display: ;
+}
+.hamburger .bar{
+  display: block;
+  margin-top: 3px;
+  height: 3px;
+  width: 30px;
+  background-color: #fff;
+}
+
+
+
+
+.about{
+  /* background: linear-gradient(rgb(5, 5, 51), blue); */
+  height: 40vh;
+  color: #000;
+}
+
+.cta{
+  background-color: red;
+}
