@@ -92,7 +92,6 @@ a{
   text-wrap: wrap;
 }
 .slide-in-left{
-  /* color: wheat; */
   animation: slide-in-left 1s ease-out forwards;
 }
 
@@ -132,6 +131,7 @@ a{
     position: absolute;
     opacity: 0;
     background-color: #c8c8c8;
+    z-index: 100;
     flex-direction: column;
     top: 72px;
     width: 100%;
@@ -152,9 +152,7 @@ a{
 
 
 
-.slide-in-left{
 
-}
 .slide-in-top{
   animation: slide-in-top 1s ease-out forwards;
 }
